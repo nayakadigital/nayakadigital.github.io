@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nayaka Digital | Systems Administration & Technology Strategy</title>
-  <meta name="description" content="Official technical portfolio and verification presence for Nayaka Digital. Specializing in Systems Administration, Computer Networking, and Automation.">
+  <title>Nayaka Digital | Application Development & Digital Solutions</title>
+  <meta name="description" content="Official developer portal and verification hub for Nayaka Digital applications, web tools, and privacy disclosures.">
   
   <!-- Inter Font & Lucide Icons -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -44,7 +44,7 @@
       justify-content: space-between;
     }
 
-    /* Top Navigation Header */
+    /* Header Nav */
     header {
       width: 100%;
       border-bottom: 1px solid var(--surface-border);
@@ -116,17 +116,16 @@
     /* Hero Section */
     .hero {
       display: grid;
-      grid-template-columns: 1fr auto;
-      gap: 40px;
-      align-items: center;
+      grid-template-columns: 1fr;
+      gap: 24px;
       padding-bottom: 48px;
       border-bottom: 1px solid var(--surface-border);
     }
 
     .hero-text h1 {
-      font-size: 2.75rem;
+      font-size: 2.5rem;
       font-weight: 700;
-      line-height: 1.2;
+      line-height: 1.25;
       letter-spacing: -0.03em;
       margin-bottom: 16px;
       background: linear-gradient(to right, #ffffff, #94a3b8);
@@ -135,9 +134,9 @@
     }
 
     .hero-text p {
-      font-size: 1.1rem;
+      font-size: 1.05rem;
       color: var(--text-muted);
-      max-width: 650px;
+      max-width: 700px;
       margin-bottom: 24px;
     }
 
@@ -202,7 +201,7 @@
       border-color: #374151;
     }
 
-    /* Content Grid Sections */
+    /* App Pillars Grid */
     .grid-section {
       margin-top: 56px;
     }
@@ -222,7 +221,6 @@
       font-size: 0.95rem;
     }
 
-    /* Cards Layout */
     .cards-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -266,7 +264,7 @@
       line-height: 1.6;
     }
 
-    /* Skill Tags */
+    /* Stack Badges */
     .tags-container {
       display: flex;
       flex-wrap: wrap;
@@ -284,7 +282,7 @@
       font-weight: 500;
     }
 
-    /* Verification Link Banner */
+    /* Compliance Banner */
     .verification-box {
       margin-top: 56px;
       background: linear-gradient(135deg, rgba(37, 99, 235, 0.1), rgba(15, 23, 42, 0.6));
@@ -344,11 +342,8 @@
     }
 
     @media (max-width: 768px) {
-      .hero {
-        grid-template-columns: 1fr;
-      }
       .hero-text h1 {
-        font-size: 2.1rem;
+        font-size: 2rem;
       }
     }
   </style>
@@ -363,9 +358,9 @@
         <span>Nayaka Digital</span>
       </a>
       <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#expertise">Expertise</a></li>
-        <li><a href="#compliance">Compliance</a></li>
+        <li><a href="#apps">App Architecture</a></li>
+        <li><a href="#stack">Tech Stack</a></li>
+        <li><a href="#compliance">Privacy & Compliance</a></li>
       </ul>
     </div>
   </header>
@@ -375,15 +370,15 @@
     <section class="hero" id="about">
       <div class="hero-text">
         <div class="status-badge">
-          <span class="status-dot"></span> Verified Platform Profile
+          <span class="status-dot"></span> Official Developer Website
         </div>
-        <h1>Enterprise Technology & Systems Engineering</h1>
+        <h1>Nayaka Digital Application Portal</h1>
         <p>
-          Official digital presence for Nayaka Digital. Delivering systems architecture, enterprise networking management, automation solutions, and technical compliance management.
+          Official home for software applications, web utilities, and developer services built by Nayaka Digital. This portal provides application disclosures, update channels, and privacy policies for account verification and service compliance.
         </p>
         <div class="cta-group">
           <a href="https://github.com/nayakadigital" target="_blank" class="btn btn-primary">
-            <i data-lucide="github"></i> GitHub Profile
+            <i data-lucide="github"></i> Developer Repository
           </a>
           <a href="privacy-policy.html" class="btn btn-secondary">
             <i data-lucide="shield-check"></i> Privacy Policy
@@ -392,62 +387,61 @@
       </div>
     </section>
 
-    <!-- Core Competencies Section -->
-    <section class="grid-section" id="expertise">
+    <!-- App Development Focus Areas -->
+    <section class="grid-section" id="apps">
       <div class="section-header">
-        <h2>Core Areas & Technical Expertise</h2>
-        <p>Architecting reliable infrastructure, network monitoring, and system automation solutions.</p>
+        <h2>App Development & Services</h2>
+        <p>Engineering lightweight, secure, and user-centric software applications and web utilities.</p>
       </div>
 
       <div class="cards-grid">
         <div class="card">
           <div class="card-icon">
-            <i data-lucide="server"></i>
+            <i data-lucide="layout"></i>
           </div>
-          <h3>Systems & Infrastructure</h3>
-          <p>Proficient in operating systems administration, dual-boot configurations, environment provisioning, and registry-level performance optimization.</p>
+          <h3>Web & Lightweight Applications</h3>
+          <p>Development of responsive, browser-based web applications, dashboards, and utility tools designed for high performance and clean usability.</p>
         </div>
 
         <div class="card">
           <div class="card-icon">
-            <i data-lucide="network"></i>
+            <i data-lucide="shield"></i>
           </div>
-          <h3>Networking & Port Control</h3>
-          <p>Hands-on network topology architecture, router management, port traffic monitoring scripts, and infrastructure security auditing.</p>
+          <h3>Data Security & Privacy Compliance</h3>
+          <p>Built with privacy-first standards. Clear data collection disclosures, end-user transparency, and standard-compliant privacy policies for app publishing platforms.</p>
         </div>
 
         <div class="card">
           <div class="card-icon">
-            <i data-lucide="code"></i>
+            <i data-lucide="refresh-cw"></i>
           </div>
-          <h3>Python & Automation</h3>
-          <p>Custom Python scripting for automated system monitoring, local browser dashboard tooling, data aggregation pipelines, and routine workflow automation.</p>
+          <h3>App Maintenance & Lifecycle</h3>
+          <p>Continuous deployment, version updates via GitHub, configuration management, and robust update distribution tracking (`update.json`).</p>
         </div>
       </div>
     </section>
 
-    <!-- Tech Stack / Skills Section -->
-    <section class="grid-section">
+    <!-- App Tech Stack -->
+    <section class="grid-section" id="stack">
       <div class="section-header">
-        <h2>Technology Stack & Tooling</h2>
+        <h2>Development Stack & Tools</h2>
       </div>
       <div class="tags-container">
-        <span class="tag">Systems Administration</span>
-        <span class="tag">Network Monitoring</span>
-        <span class="tag">Python Automation</span>
-        <span class="tag">Linux / Windows Environment</span>
-        <span class="tag">Data Curation & Analysis</span>
-        <span class="tag">Shell / PowerShell</span>
+        <span class="tag">JavaScript / HTML5 / CSS3</span>
+        <span class="tag">Python Backends & Utilities</span>
+        <span class="tag">RESTful API Design</span>
         <span class="tag">Git Version Control</span>
-        <span class="tag">HTML5 / JavaScript</span>
+        <span class="tag">GitHub Pages Deployment</span>
+        <span class="tag">JSON Application Configs</span>
+        <span class="tag">Privacy & Security Compliance</span>
       </div>
     </section>
 
-    <!-- Verification / Compliance Banner -->
+    <!-- Privacy / Verification Banner -->
     <div class="verification-box" id="compliance">
       <div class="verification-text">
-        <h3>Identity & Application Compliance</h3>
-        <p>This repository hosts verified developer links, privacy policy disclosures, and operational endpoints.</p>
+        <h3>App Privacy & Developer Disclosures</h3>
+        <p>This developer portal hosts verified policy links and endpoint configurations required by Google and third-party platform verifications.</p>
       </div>
       <a href="https://nayakadigital.github.io/privacy-policy.html" target="_blank" class="btn btn-secondary">
         <i data-lucide="file-text"></i> View Privacy Policy
@@ -460,13 +454,12 @@
     <div class="footer-content">
       <p>&copy; <script>document.write(new Date().getFullYear())</script> Nayaka Digital. All rights reserved.</p>
       <div class="footer-links">
-        <a href="https://github.com/nayakadigital" target="_blank">GitHub</a>
+        <a href="https://github.com/nayakadigital" target="_blank">GitHub Repository</a>
         <a href="privacy-policy.html">Privacy Policy</a>
       </div>
     </div>
   </footer>
 
-  <!-- Lucide Icons Initialize -->
   <script>
     lucide.createIcons();
   </script>
