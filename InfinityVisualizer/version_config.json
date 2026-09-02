@@ -1,0 +1,9 @@
+{
+  "latestVersionCode": 1,
+  "minRequiredVersionCode": 1,
+  "latestVersionName": "1.0.0",
+  "forceUpdate": false,
+  "updateTitle": "Update Required",
+  "updateMessage": "A new version of Infinity is available with major performance enhancements and new visualizer features. Please update to continue.",
+  "updateUrl": "https://play.google.com/store/apps/details?id=com.premium.infinity"
+}
