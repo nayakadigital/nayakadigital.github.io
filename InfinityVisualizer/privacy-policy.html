@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - Infinity</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px;
+      background-color: #fafafa;
+    }
+    .card {
+      background: #ffffff;
+      padding: 32px;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    }
+    h1 { font-size: 1.8rem; margin-bottom: 0.25rem; color: #111; }
+    h2 { font-size: 1.25rem; margin-top: 1.6rem; margin-bottom: 0.5rem; color: #222; border-bottom: 1px solid #eee; padding-bottom: 4px; }
+    h3 { font-size: 1.05rem; margin-top: 1rem; margin-bottom: 0.25rem; color: #333; }
+    p, li { color: #444; font-size: 0.95rem; }
+    ul { padding-left: 20px; }
+    code { background: #f4f4f4; padding: 2px 5px; border-radius: 4px; font-size: 0.88rem; }
+    .updated { font-size: 0.9rem; color: #777; margin-bottom: 1.5rem; }
+    a { color: #0366d6; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Privacy Policy for Infinity</h1>
+    <div class="updated">Effective Date: September 2, 2026</div>
+
+    <p>This privacy policy applies to the <strong>Infinity</strong> mobile application for Android devices, operated by <strong>Nayaka Digital</strong> (collectively, the "Application" or "Service Provider").</p>
+
+    <h2>Information Collection and Use</h2>
+    <p>The Application is a 3D audio visualizer engineered to render real-time interactive particle and spectrolizer graphics synced to live audio playback.</p>
+    <p>Nayaka Digital values your privacy. Infinity does not require user registration, account creation, or login credentials. No personal authentication data or profile information is collected, stored on remote servers, or transmitted off your device.</p>
+
+    <h2>Device Permissions &amp; Core Functionality</h2>
+    <p>The Application requests explicit runtime permissions strictly needed to perform its core audio visualizer functions:</p>
+
+    <h3>Microphone / Audio Capture (<code>android.permission.RECORD_AUDIO</code>)</h3>
+    <ul>
+      <li><strong>Purpose:</strong> Required to capture live audio signals for real-time FFT frequency spectrum analysis and 3D visualizer animation.</li>
+      <li><strong>Data Handling:</strong> Audio streams are processed strictly in real time within local operational memory (RAM). Audio is never recorded, saved to storage, analyzed for speech/content, or transmitted to external servers.</li>
+    </ul>
+
+    <h3>Notification Access (<code>android.permission.BIND_NOTIFICATION_LISTENER_SERVICE</code>)</h3>
+    <ul>
+      <li><strong>Purpose:</strong> Used strictly to retrieve active media player metadata (song title, artist, and music app name) to display on the optional in-app track ribbon.</li>
+      <li><strong>Data Handling:</strong> Access is limited strictly to active media session notifications (e.g., Spotify, YouTube Music, Apple Music, Wynk). Notification contents are never inspected for personal messages, recorded, or shared with third parties.</li>
+    </ul>
+
+    <h3>Vibration (<code>android.permission.VIBRATE</code>)</h3>
+    <ul>
+      <li><strong>Purpose:</strong> Provides subtle haptic feedback when interacting with visualizer controls, preset buttons, and settings panels.</li>
+    </ul>
+
+    <h2>Local Device Storage &amp; Settings</h2>
+    <p>All visualizer settings, custom 5-slot presets, user-selected themes, active preset baselines, and onboarding completion states are stored locally on your device using Android Jetpack DataStore preferences.</p>
+    <p>This data remains entirely under your control and is deleted automatically if you clear application data or uninstall the Application.</p>
+
+    <h2>Third-Party Services</h2>
+    <p>The Application utilizes standard third-party infrastructure services provided by Google to facilitate distribution and update management:</p>
+    <ul>
+      <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Play Services</a></li>
+    </ul>
+    <p>The Service Provider does not sell, rent, or trade any automatically collected or technical diagnostic information to third parties.</p>
+
+    <h2>In-App Purchases and Billing</h2>
+    <p>If in-app purchases or subscriptions are enabled in future updates, transactions will be processed via the official Google Play In-App Billing system. The Service Provider does not process, receive, or store your credit card or financial account numbers.</p>
+
+    <h2>Data Retention and Opt-Out Rights</h2>
+    <ul>
+      <li><strong>User Data:</strong> No personal data is stored on remote servers. All visualizer configurations and presets reside exclusively on your device.</li>
+      <li><strong>Opt-Out:</strong> You can stop all processing by uninstalling the Application. You can also revoke Audio Capture or Notification Listener permissions at any time via your device's Android Settings &gt; Apps &gt; Infinity &gt; Permissions.</li>
+    </ul>
+
+    <h2>Your Rights (GDPR / CCPA / CPRA)</h2>
+    <p>Depending on your jurisdiction, you have the right to know what data is processed, request deletion of local app data, or withdraw consent. Because Infinity does not maintain user accounts or remote personal databases, uninstalling the app or clearing local app storage immediately wipes all local configuration records.</p>
+    <p>If you have questions or wish to exercise any legal rights, contact the Service Provider at <a href="mailto:digitalnayaka@gmail.com">digitalnayaka@gmail.com</a>.</p>
+
+    <h2>Children’s Privacy</h2>
+    <p>The Application is not intended for children under 13 years of age. The Service Provider does not knowingly collect or solicit personal information from children. If the Service Provider discovers that a child has provided personal information, it will be deleted immediately.</p>
+
+    <h2>Security</h2>
+    <p>The Service Provider is committed to safeguarding your privacy. All audio analysis and metadata handling occur locally inside volatile device memory, ensuring that no sensitive audio or media streams leave your physical device.</p>
+
+    <h2>Changes to This Privacy Policy</h2>
+    <p>The Service Provider may update this Privacy Policy from time to time. Material changes will be posted within the app or on the store listing with an updated effective date.</p>
+
+    <h2>Contact Us</h2>
+    <p>If you have any questions or concerns regarding privacy while using Infinity, please contact Nayaka Digital:</p>
+    <p>📩 Email: <a href="mailto:digitalnayaka@gmail.com">digitalnayaka@gmail.com</a></p>
+  </div>
+</body>
+</html>
