@@ -1,6 +1,6 @@
 {
   "minimum_version_code": 11,
-  "latest_build": 10,
+  "latest_build": 11,
   "force_update": true,
   "update_url": "https://play.google.com/store/apps/details?id=com.simplest.launcher",
   "message": "A required update is available. Please update Simplest Launcher to continue."
